@@ -1,0 +1,35 @@
+Sistema AXESE
+
+MER: https://cacoo.com/diagrams/Nckf24fpBFhCqpkX-F3430.png
+Diagrama de Classes:
+
+Descrição:
+
+    Um aplicativo que teria uma lista de escolas que estariam precisando ajuda, com uma opção de procura ao clicar no nome da escola estaria na tela as necessidades da escola e todas as informações que a instituição quisesse colocar sobre ela, e então os alunos das instituições teriam uma chance para realizar seus projetos com um auxílio das empresas, mas para ser os estudantes serem aceitos nos programas teriam que ter notas acima de 80.
+
+Público Alvo:
+
+Empresas que estejam interessadas em ajudar escolas e conseguir novos projetos; Estudantes; Instituições de Ensino.
+
+Requisitos Funcionais:
+
+Servidores farão a manutenção e atualizações do sistema.
+Escolas ajudariam o cadastro dos alunos, com informações baseadas na ficha do estudante.
+Escolas farão o cadastro da instituição e suas necessidades.
+Escolas colocarão a renda familiar dos estudantes e da instituição.  
+Alunos irão colocar seus projetos e ideias amostra no site.
+Alunos colocarão suas experiências.
+Alunos podem modificar seu perfil no sistema.
+Empresas farão seu cadastro.
+Empresas colocariam o perfil de aluno e de projetos que querem financiar.
+Empresas colocariam coordenadores para auxiliar os estudantes, nos projetos.
+
+Requisitos Não-Funcionais:
+
+AXESE a versão web.
+AXESE teria a versão mobile (Android).
+AXESE seria baixado pelo google play na versão mobile.
+AXESE é necessário internet.
+Dependendo poderia ter uma versão na Apple Store.
+Garantia de segurança total das informações colocadas no AXESE.
+Informações seriam criptografadas.        
