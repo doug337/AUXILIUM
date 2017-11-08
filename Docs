@@ -13,16 +13,51 @@ Empresas que estejam interessadas em ajudar escolas e conseguir novos projetos; 
 
 Requisitos Funcionais:
 
-Servidores farão a manutenção e atualizações do sistema.
 Escolas ajudariam o cadastro dos alunos, com informações baseadas na ficha do estudante.
-Escolas farão o cadastro da instituição e suas necessidades.
-Escolas colocarão a renda familiar dos estudantes e da instituição.  
-Alunos irão colocar seus projetos e ideias amostra no site.
-Alunos colocarão suas experiências.
-Alunos podem modificar seu perfil no sistema.
-Empresas farão seu cadastro.
-Empresas colocariam o perfil de aluno e de projetos que querem financiar.
-Empresas colocariam coordenadores para auxiliar os estudantes, nos projetos.
+Escolas farão o perfil da instituição e suas necessidades.
+Escolas podem colocar fotos da instituição em posts.
+Escolas podem comentar em posts de Alunos.
+Escolas podem comentar em posts de Empresas.
+Escolas podem comentar em posts de Coordenadores.
+Escolas podem conversar por chat com Empresas.
+Escolas podem conversar por chat com Coordenadores.
+Escolas podem disponibilar lista dos Alunos em seu perfil.
+Escolas podem disponibilizar listas de turmas em seu perfil
+Escolas podem escolhar mostrar alunos por turmas ou projetos.
+Escolas podem incluir lista de projetos e foto do respectivo aluno que o fez com uma descrição sobre o projeto. 
+Escolas podem modificar seu perfil ou atualizar.
+
+Alunos podem postar seus projetos e ideias.
+Alunos podem postar seus avanços.
+Alunos podem comentar em posts de Alunos.
+Alunos podem comentar em posts de Empresas.
+Alunos podem comentar em posts de Coordenadores.
+Alunos podem adicionar Empresas em seu perfil.
+Alunos podem adicionar Cooordenadores em seu perfil.
+Alunos podem adicionar a sua Escola em seu perfil.
+Alunos devem ter seu boletim em seu perfil.
+Alunos devem ter foto sua em seu perfil
+Alunos podem modificar seu perfil ou atualizar
+Alunos podem colocar dicas de desenvolvimento em posts.
+
+Empresas podem criar seu perfil.
+Empresas podem postar sobre perfil de aluno e de projetos que querem financiar.
+Empresas podem criar posts.
+Empresas adicionariam Coordenadores para auxiliar os estudantes, nos projetos.
+Empresas mostrariam perfil de Coordenadores que estão a disposição para auxiliar.
+Empresas podem comentar em posts de Escolas.
+Empresas podem conversar por chat com Escolas.
+Empresas podem conversar por chat com Alunos.
+Empresas podem conversar por chat com Coordenadores.
+Empresas podem modificar seu perfil ou atualizar.
+
+Coordenadores podem criar perfil.
+Coordenadores podem criar posts.
+Coordenadores podem adicionar Alunos em perfil.
+Coordenadores podem adicionar Empresas em perfil.
+Coordenadores podem adicionar Escolas em perfil.
+Coordenadores devem adicionar uma foto sua de perfil.
+Coordenadores podem modificar seu perfil ou atualizar.
 
 Requisitos Não-Funcionais:
 
@@ -32,4 +67,4 @@ AXESE seria baixado pelo google play na versão mobile.
 AXESE é necessário internet.
 Dependendo poderia ter uma versão na Apple Store.
 Garantia de segurança total das informações colocadas no AXESE.
-Informações seriam criptografadas.        
+Proteção de informação colocada como privada nos perfis.        
