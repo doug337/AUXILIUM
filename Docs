@@ -12,14 +12,11 @@ Empresas que estejam interessadas em ajudar escolas e conseguir novos projetos; 
 
 Requisitos Funcionais:
 
-Escolas ajudariam o cadastro dos alunos, com informações baseadas na ficha do estudante.
 Escolas farão o perfil da instituição e suas necessidades.
 Escolas podem colocar fotos da instituição em posts.
 Escolas podem comentar em posts de Alunos.
 Escolas podem comentar em posts de Empresas.
-Escolas podem comentar em posts de Coordenadores.
 Escolas podem conversar por chat com Empresas.
-Escolas podem conversar por chat com Coordenadores.
 Escolas podem disponibilar lista dos Alunos em seu perfil.
 Escolas podem disponibilizar listas de turmas em seu perfil
 Escolas podem escolhar mostrar alunos por turmas ou projetos.
@@ -30,9 +27,6 @@ Alunos podem postar seus projetos e ideias.
 Alunos podem postar seus avanços.
 Alunos podem comentar em posts de Alunos.
 Alunos podem comentar em posts de Empresas.
-Alunos podem comentar em posts de Coordenadores.
-Alunos podem adicionar Empresas em seu perfil.
-Alunos podem adicionar Cooordenadores em seu perfil.
 Alunos podem adicionar a sua Escola em seu perfil.
 Alunos devem ter seu boletim em seu perfil.
 Alunos devem ter foto sua em seu perfil
@@ -42,21 +36,10 @@ Alunos podem colocar dicas de desenvolvimento em posts.
 Empresas podem criar seu perfil.
 Empresas podem postar sobre perfil de aluno e de projetos que querem financiar.
 Empresas podem criar posts.
-Empresas adicionariam Coordenadores para auxiliar os estudantes, nos projetos.
-Empresas mostrariam perfil de Coordenadores que estão a disposição para auxiliar.
 Empresas podem comentar em posts de Escolas.
 Empresas podem conversar por chat com Escolas.
 Empresas podem conversar por chat com Alunos.
-Empresas podem conversar por chat com Coordenadores.
 Empresas podem modificar seu perfil ou atualizar.
-
-Coordenadores podem criar perfil.
-Coordenadores podem criar posts.
-Coordenadores podem adicionar Alunos em perfil.
-Coordenadores podem adicionar Empresas em perfil.
-Coordenadores podem adicionar Escolas em perfil.
-Coordenadores devem adicionar uma foto sua de perfil.
-Coordenadores podem modificar seu perfil ou atualizar.
 
 Requisitos Não-Funcionais:
 
