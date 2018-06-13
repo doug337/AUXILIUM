@@ -1,52 +1,39 @@
-Sistema AXESE
+Sistema ...
 
 Link para a pasta do Drive: https://drive.google.com/drive/folders/0BzaLx95m4mHlcHdoa082UEZaYzg?usp=sharing
 
-Descrição:
+Descrição: Site para ajudar ONG's a receber doações e Empresas que querem investir, as doações já vão ser descontadas do Imposto de Renda
 
-    Um aplicativo que teria uma lista de escolas que estariam precisando ajuda, com uma opção de procura ao clicar no nome da escola estaria na tela as necessidades da escola e todas as informações que a instituição quisesse colocar sobre ela, e então os alunos das instituições teriam uma chance para realizar seus projetos com um auxílio das empresas, mas para ser os estudantes serem aceitos nos programas teriam que ter notas acima de 80.
-
+    
 Público Alvo:
 
-Empresas que estejam interessadas em ajudar escolas e conseguir novos projetos; Estudantes; Instituições de Ensino.
+Empresas que estejam interessadas em ajudar ONGS e conseguir novos projetos; ONGS;
 
 Requisitos Funcionais:
 
-Escolas farão o perfil da instituição e suas necessidades.
-Escolas podem colocar fotos da instituição em posts.
-Escolas podem comentar em posts de Alunos.
-Escolas podem comentar em posts de Empresas.
-Escolas podem conversar por chat com Empresas.
-Escolas podem disponibilar lista dos Alunos em seu perfil.
-Escolas podem disponibilizar listas de turmas em seu perfil
-Escolas podem escolhar mostrar alunos por turmas ou projetos.
-Escolas podem incluir lista de projetos e foto do respectivo aluno que o fez com uma descrição sobre o projeto. 
-Escolas podem modificar seu perfil ou atualizar.
+Usuario pode ser Empresa ou ONG.
 
-Alunos podem postar seus projetos e ideias.
-Alunos podem postar seus avanços.
-Alunos podem comentar em posts de Alunos.
-Alunos podem comentar em posts de Empresas.
-Alunos podem adicionar a sua Escola em seu perfil.
-Alunos devem ter seu boletim em seu perfil.
-Alunos devem ter foto sua em seu perfil
-Alunos podem modificar seu perfil ou atualizar
-Alunos podem colocar dicas de desenvolvimento em posts.
+ONG pode criar seu perfil
+ONG pode criar descrição do que faz.
+ONG pode mostrar projetos que faz em posts.
+ONG pode comentar em posts de Empresas.
+ONG pode modificar ou atualizar perfil.
+ONG pode conversar por chat com Empresa.
 
 Empresas podem criar seu perfil.
-Empresas podem postar sobre perfil de aluno e de projetos que querem financiar.
+Empresas podem postar sobre perfil de ONG e de projetos que querem financiar.
 Empresas podem criar posts.
-Empresas podem comentar em posts de Escolas.
-Empresas podem conversar por chat com Escolas.
-Empresas podem conversar por chat com Alunos.
+Empresas podem comentar em posts de ONGS.
+Empresas podem conversar por chat com ONGS.
 Empresas podem modificar seu perfil ou atualizar.
+Empresas podem fazer calculo para ver o quanto vai ser descontado do Imposto de Renda.
 
 Requisitos Não-Funcionais:
 
-AXESE a versão web.
-AXESE teria a versão mobile (Android).
-AXESE seria baixado pelo google play na versão mobile.
-AXESE é necessário internet.
+... a versão web.
+... teria a versão mobile (Android).
+... seria baixado pelo google play na versão mobile.
+... é necessário internet.
 Dependendo poderia ter uma versão na Apple Store.
 Garantia de segurança total das informações colocadas no AXESE.
 Proteção de informação colocada como privada nos perfis.        
