@@ -1,4 +1,4 @@
-Sistema ...
+Sistema PROMOR
 
 Link para a pasta do Drive: https://drive.google.com/drive/folders/0BzaLx95m4mHlcHdoa082UEZaYzg?usp=sharing
 
@@ -13,20 +13,27 @@ Requisitos Funcionais:
 
 Usuario pode ser Empresa ou ONG.
 
+ONG possui nome.
+ONG possui endereço.
+ONG possui banco.
+ONG possui telefone.
+ONG possui tipo. 
 ONG pode criar seu perfil
 ONG pode criar descrição do que faz.
-ONG pode mostrar projetos que faz em posts.
-ONG pode comentar em posts de Empresas.
+ONG pode fazer post das atividades.
 ONG pode modificar ou atualizar perfil.
 ONG pode conversar por chat com Empresa.
 
+Empresas possui nome.
+Empresas possui endereço.
+Empresas possui banco.
+Empresas possui telefone.
+Empresas possui CNPJ 
 Empresas podem criar seu perfil.
-Empresas podem postar sobre perfil de ONG e de projetos que querem financiar.
-Empresas podem criar posts.
 Empresas podem comentar em posts de ONGS.
 Empresas podem conversar por chat com ONGS.
 Empresas podem modificar seu perfil ou atualizar.
-Empresas podem fazer calculo para ver o quanto vai ser descontado do Imposto de Renda.
+Empresas podem solicitar calculo de IR.
 
 Requisitos Não-Funcionais:
 
@@ -35,5 +42,5 @@ Requisitos Não-Funcionais:
 ... seria baixado pelo google play na versão mobile.
 ... é necessário internet.
 Dependendo poderia ter uma versão na Apple Store.
-Garantia de segurança total das informações colocadas no AXESE.
+Garantia de segurança total das informações colocadas no PROMOR.
 Proteção de informação colocada como privada nos perfis.        
