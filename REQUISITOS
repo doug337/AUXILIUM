@@ -11,29 +11,29 @@ Empresas que estejam interessadas em ajudar ONGS e conseguir novos projetos; ONG
 
 Requisitos Funcionais:
 
-Usuario pode ser Empresa ou ONG.
+Usuario pode ser Empresa ou ONG;
 
-ONG possui nome.
-ONG possui endereço.
-ONG possui banco.
-ONG possui telefone.
-ONG possui tipo. 
-ONG pode criar seu perfil
-ONG pode criar descrição do que faz.
-ONG pode fazer post das atividades.
-ONG pode modificar ou atualizar perfil.
-ONG pode conversar por chat com Empresa.
+ONG deve colocar nome;
+ONG deve colocar endereço;
+ONG deve possuir banco;
+ONG deve possuir telefone;
+ONG possui tipo; 
+ONG pode criar seu perfil;
+ONG pode criar descrição do que faz;
+ONG pode fazer post das atividades;
+ONG pode modificar ou atualizar perfil;
+ONG pode conversar por chat com Empresa;
 
-Empresas possui nome.
-Empresas possui endereço.
-Empresas possui banco.
-Empresas possui telefone.
-Empresas possui CNPJ 
-Empresas podem criar seu perfil.
-Empresas podem comentar em posts de ONGS.
-Empresas podem conversar por chat com ONGS.
-Empresas podem modificar seu perfil ou atualizar.
-Empresas podem solicitar calculo de IR.
+Empresas deve colocar nome;
+Empresas deve colocar endereço;
+Empresas deve possuir banco;
+Empresas deve possuir telefone;
+Empresas podem colocar CNPJ; 
+Empresas podem criar seu perfil;
+Empresas podem comentar em posts de ONGS;
+Empresas podem conversar por chat com ONGS;
+Empresas podem modificar seu perfil ou atualizar;
+Empresas podem solicitar calculo de IR;
 
 Requisitos Não-Funcionais:
 
