@@ -48,7 +48,7 @@
     <center> <h1> Preencha o formulário abaixo para fazer seu cadastro</h1> </center>
   
 
-<form action="Script_do_Formulario.php" method="post">
+<form action="register.php" method="post">
 
 <!-- DADOS PESSOAIS-->
 <fieldset>
@@ -59,7 +59,7 @@
     <label for="nome">Nome completo: </label>
    </td>
    <td align="left">
-    <input type="text" name="email">
+    <input type="text" name="nome">
    </td>
    <td>
   
@@ -188,7 +188,7 @@
     <label for="estado">Sexo:</label>
    </td>
     <td align="left">
-    <select name="Identidade de genero"> 
+    <select name="sexo"> 
     <option value="F">Feminino</option> 
     <option value="al">Masculino</option> 
     <option value="am">Outros</option> 
@@ -209,7 +209,7 @@
     <label>CPF:</label>
    </td>
    <td align="left">
-    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+    <input type="text" name="cpf" size="9" maxlength="9">
    </td>
   </tr>
  </table>
@@ -232,7 +232,7 @@
     <label for="numero">Numero:</label>
    </td>
    <td align="left">
-    <input type="text" name="numero" size="4">
+    <input type="text" name="casa" size="4">
    </td>
   </tr>
   <tr>
@@ -295,7 +295,7 @@
     <label for="cep">CEP: </label>
    </td>
    <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+    <input type="text" name="cep" size="5" maxlength="5">
    </td>
   </tr>
  </table>
@@ -323,13 +323,12 @@
 
    </td>
   </tr>
- 
   <tr>
    <td>
     <label for="pass">Senha: </label>
    </td>
    <td align="left">
-    <input type="password" name="pass">
+    <input type="password" name="senha">
    </td>
   </tr>
   <tr>
@@ -337,86 +336,87 @@
     <label for="passconfirm">Confirme a senha: </label>
    </td>
    <td align="left">
-    <input type="password" name="passconfirm">
+    <input type="password" name="nada">
    </td>
   </tr>
  </table>
 </fieldset>
 <br />
-<input type="submit">
+
+<input type="submit" name="submit">
 <input type="reset" value="Limpar">
 </form>
 
-	<!-- Footer -->
-			<footer id="footer" style="width: 126%; margin-left: -112px; margin-bottom: -60px;">
-				<div class="container">
-					<section class="links">
-						<div class="row">
-							<section class="3u 6u(medium) 12u$(small)">
-								<h3>Respeito</h3>
-								<ul class="unstyled">
-									<li><a >Tenha respeito pelo próximo, esse site é para ajudar pessoas que passam por dificuldades e nao conseguem estudar por conta disso.</a></li>
-									
-								</ul>
-							</section>
-							<section class="3u 6u$(medium) 12u$(small)">
-								<h3>gg</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Reiciendis dicta laboriosam enim</a></li>
-									<li><a href="#">Corporis, non aut rerum</a></li>
-									<li><a href="#">Laboriosam nulla voluptas, harum</a></li>
-									<li><a href="#">Facere eligendi, inventore dolor</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u(medium) 12u$(small)">
-								<h3>Neque, dolore, facere</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
-									<li><a href="#">Explicabo inventore itaque autem</a></li>
-									<li><a href="#">Aperiam harum, sint quibusdam</a></li>
-									<li><a href="#">Labore excepturi assumenda</a></li>
-								</ul>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(small)">
-								<h3>Illum, tempori, saepe</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Recusandae, culpa necessita nam</a></li>
-									<li><a href="#">Cupiditate, debitis adipisci blandi</a></li>
-									<li><a href="#">Tempore nam, enim quia</a></li>
-									<li><a href="#">Explicabo molestiae dolor labore</a></li>
-								</ul>
-							</section>
-						</div>
-					</section>
-					<div class="row">
-						<div class="8u 12u$(medium)">
-							<ul class="copyright">
-								<h2><li>Nos siga nas redes sociais ao lado</li></h2>
-								
-							</ul>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<ul class="icons">
-								<li>
-									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
+<!-- Footer -->
+            <footer id="footer">
+                <div class="container">
+                    <section class="links">
+                        <div class="row">
+                            <section class="3u 6u(medium) 12u$(small)">
+                                <h3>Respeito</h3>
+                                <ul class="unstyled">
+                                    <li><a >Tenha respeito pelo próximo, esse site é para ajudar pessoas que passam por dificuldades e nao conseguem estudar por conta disso.</a></li>
+                                    
+                                </ul>
+                            </section>
+                            <section class="3u 6u$(medium) 12u$(small)">
+                                <h3>gg</h3>
+                                <ul class="unstyled">
+                                    <li><a href="#">Lorem ipsum dolor sit</a></li>
+                                    <li><a href="#">Reiciendis dicta laboriosam enim</a></li>
+                                    <li><a href="#">Corporis, non aut rerum</a></li>
+                                    <li><a href="#">Laboriosam nulla voluptas, harum</a></li>
+                                    <li><a href="#">Facere eligendi, inventore dolor</a></li>
+                                </ul>
+                            </section>
+                            <section class="3u 6u(medium) 12u$(small)">
+                                <h3>Neque, dolore, facere</h3>
+                                <ul class="unstyled">
+                                    <li><a href="#">Lorem ipsum dolor sit</a></li>
+                                    <li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
+                                    <li><a href="#">Explicabo inventore itaque autem</a></li>
+                                    <li><a href="#">Aperiam harum, sint quibusdam</a></li>
+                                    <li><a href="#">Labore excepturi assumenda</a></li>
+                                </ul>
+                            </section>
+                            <section class="3u$ 6u$(medium) 12u$(small)">
+                                <h3>Illum, tempori, saepe</h3>
+                                <ul class="unstyled">
+                                    <li><a href="#">Lorem ipsum dolor sit</a></li>
+                                    <li><a href="#">Recusandae, culpa necessita nam</a></li>
+                                    <li><a href="#">Cupiditate, debitis adipisci blandi</a></li>
+                                    <li><a href="#">Tempore nam, enim quia</a></li>
+                                    <li><a href="#">Explicabo molestiae dolor labore</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+                    <div class="row">
+                        <div class="8u 12u$(medium)">
+                            <ul class="copyright">
+                                <h2><li>Nos siga nas redes sociais ao lado</li></h2>
+                                
+                            </ul>
+                        </div>
+                        <div class="4u$ 12u$(medium)">
+                            <ul class="icons">
+                                <li>
+                                    <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                                </li>
+                                <li>
+                                    <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                                </li>
+                                <li>
+                                    <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+                                </li>
+                                <li>
+                                    <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
-	</body>
+    </body>
 </html>

@@ -11,9 +11,9 @@ if(isset($_POST['submit'])){
  $user=$_POST['email'];
  $pass=$_POST['senha'];
  
- $conn = mysqli_connect("localhost", "root", "root");
+ $conn = mysqli_connect("localhost", "root", "");
  
- $db = mysqli_select_db($conn, "axes");
+ $db = mysqli_select_db($conn, "axe");
 
  $query = mysqli_query($conn, "SELECT * FROM usuario WHERE senha='$pass' AND email='$user'");
  

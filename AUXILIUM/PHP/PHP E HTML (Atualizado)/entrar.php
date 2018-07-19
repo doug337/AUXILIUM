@@ -1,3 +1,6 @@
+<?php
+include ('loginserv.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -1466,22 +1469,21 @@ footer a, footer a:link {
 
 <body>
 
-  <div class="wrapper">
-  <form class="login">
+  <div class="wrapper" class="login">
+  <form  method="post" action="loginserv.php">
     <p class="title">Login</p>
-    <input type="text" name = "email" placeholder="E-mail" autofocus/>
+    <input type="text" name="email" placeholder="Email" autofocus/>
     <i class="fa fa-user"></i>
-    <input type="password" name = "senha" placeholder="Senha" />
+    <input type="senha" name="senha" placeholder="Senha" />
     <i class="fa fa-key"></i>
-    <a href="perfil/index.html">Logar</a>
-    <button>
-      <i class="spinner"></i>
+    <button type="submit" name="submit">
+     
 	
-      <span type = "submit" name = "submit">Fazer login</span>
+      Fazer login
 	  
     </button>
   </form>
-  <footer><a target="blank" href="cadastro.php"><a href="cadastro.php">Ainda não tem uma conta? CADASTRE-SE</a></footer>
+  <footer><a target="blank" href="cadastro.html"><a href="cadastro.html">Ainda não tem uma conta? CADASTRE-SE</a></footer>
   </p>
 </div>
  
