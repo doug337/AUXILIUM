@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
  $user=$_POST['email'];
  $pass=$_POST['senha'];
  
- $conn = mysqli_connect("localhost", "root", "");
+ $conn = mysqli_connect("localhost", "root", "root");
  
  $db = mysqli_select_db($conn, "axe");
 
