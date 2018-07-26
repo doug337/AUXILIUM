@@ -1,27 +1,29 @@
-Sistema PROMOR
+Sistema AUXILIUM
 
 Link para a pasta do Drive: https://drive.google.com/drive/folders/0BzaLx95m4mHlcHdoa082UEZaYzg?usp=sharing
 
-Descrição: Site para ajudar ONG's a receber doações e Empresas que querem investir, as doações já vão ser descontadas do Imposto de Renda
+Descrição: Site para ajudar ONG's a receber doações e Empresas que querem doar, direcionando seu imposto de renda, as doações já vão ser descontadas do Imposto de Renda.
 
     
 Público Alvo:
 
-Empresas que estejam interessadas em ajudar ONGS e conseguir novos projetos; ONGS;
+Empresas que estejam interessadas em ajudar ONGS, direcionando seu imposto de renda e conseguir novos projetos; ONGS;
 
 Requisitos Funcionais:
 
 Usuario pode ser Empresa ou ONG;
+Usuario pode solicitar calculo como pessoa fisica
 
 ONG deve colocar nome;
 ONG deve colocar endereço;
 ONG deve possuir banco;
 ONG deve possuir telefone;
-ONG possui tipo; 
+ONG deve possuir tipo; 
 ONG pode criar seu perfil;
 ONG pode criar descrição do que faz;
 ONG pode fazer post das atividades;
 ONG pode modificar ou atualizar perfil;
+ONG pode adicionar fotos;
 ONG pode conversar por chat com Empresa;
 
 Empresas deve colocar nome;
@@ -33,6 +35,7 @@ Empresas podem criar seu perfil;
 Empresas podem comentar em posts de ONGS;
 Empresas podem conversar por chat com ONGS;
 Empresas podem modificar seu perfil ou atualizar;
+Empresas podem adicionar fotos;
 Empresas podem solicitar calculo de IR;
 
 Requisitos Não-Funcionais:
