@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="">
+
+    <title>AUXILIUM</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+
+ 
+  </head>
+
+    <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>AUXILIUM</b></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <!-- settings start -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge bg-theme">4</span>
+                        </a>
+                        <ul class="dropdown-menu extended tasks-bar">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">Você tem algumas pendencias</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Tarefas feitas</div>
+                                        <div class="percent">40%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Tarefas feitas</div>
+                                        <div class="percent">60%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Tarefas feitas</div>
+                                        <div class="percent">80%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Tarefa tal</div>
+                                        <div class="percent">70%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                            <span class="sr-only">70% Complete (Important)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="external">
+                                <a href="#">Ver mais</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- settings end -->
+                    <!-- inbox dropdown start-->
+                    <li id="header_inbox_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-theme">5</span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">Voce tem 5 novas mensagens</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-zac.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Nome da empresa</span>
+                                    <span class="time">agora</span>
+                                    </span>
+                                    <span class="message">
+                                       Boa tarde
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-divya.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Nome da ong</span>
+                                    <span class="time">40 mins.</span>
+                                    </span>
+                                    <span class="message">
+                                     Olá, preciso falar com voce.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-danro.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Dan Rogers</span>
+                                    <span class="time">2 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                       Amei o projeto
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-sherman.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Dj Sherman</span>
+                                    <span class="time">4 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                       Por favor, responda rápido.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Veja todas as mensagens</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- inbox dropdown end -->
+                </ul>
+                <!--  notification end -->
+            </div>
+            
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="assets/img/instituto-socioambiental.png" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">ONG Isa</h5>
+              	  	
+                  <li class="mt">
+                      <a class="active" href="index.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Painel de controle</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-desktop"></i>
+                          <span>Pesquisar</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="general.html">Ongs</a></li>
+                        
+                          <li><a  href="panels.html">Empresas</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Ferramentas</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="calendar.html">Meu calendário</a></li>
+                          <li><a  href="gallery.html">Minha galeria</a></li>
+                          <li><a  href="todo_list.html">Lista de afazeres</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Tela de bloqueio</span>
+                      </a>
+                      <ul class="sub">
+                         
+                          <li><a  href="lock_screen.html">Bloquear tela</a></li>
+                      </ul>
+                  </li>
+               
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-th"></i>
+                          <span>Tabela de informaçoes</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="basic_table.html">Abrir tabela</a></li>
+                         
+                      </ul>
+                  </li>
+                 
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper site-min-height">
+          	<h3><i class="fa fa-angle-right"></i>Veja empresas abaixo</h3>
+          	<div class="row mt">
+          		<div class="col-lg-12">
+          		
+					
+					
+						<! -- PROFILE 01 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/modelo-abstrato-de-logotipo-de-design-de-azulejos-e-letras-v-i-vi-para-propriedades-interiores-e-exteriores-conceito-de-simbolo-de-identidade-para-imoveis-.jpg" class="img-circle" width="90">
+										<h4>LOREM</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+					
+					</div><! --/END 1ND ROW OF PANELS -->
+					
+							<! -- PROFILE 02 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/arrow-casa-logotipo-do-negocio_1017-1012.jpg" class="img-circle" width="80">
+										<h4>COMPANY</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+					
+					</div><! --/END 2ND ROW OF PANELS -->
+					
+							<! -- PROFILE 03 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/56f4dd9ef192c_thumb900.jpg" class="img-circle" width="80">
+										<h4>PROTECH</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+					
+					</div><! --/END 3ND ROW OF PANELS -->
+					
+							<! -- PROFILE 04 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/download.jpg" class="img-circle" width="80">
+										<h4>MORGAN</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+					
+					</div><! --/END 4ND ROW OF PANELS -->
+					
+							<! -- PROFILE 05 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/logotipo_porto_brasil_alimentos.jpg" class="img-circle" width="80">
+										<h4>PORTO BRASIL</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						
+					</div><! --/END 5ND ROW OF PANELS -->
+					
+							<! -- PROFILE 06 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/logo_ias.jpg" class="img-circle" width="80">
+										<h4>IAS</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						
+					</div><! --/END 6ND ROW OF PANELS -->
+					
+							<! -- PROFILE 07 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/logotipo_empresa_contabilidade_dbo.jpg" class="img-circle" width="80">
+										<h4>DBO</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+				
+					</div><! --/END 7ND ROW OF PANELS -->
+					
+							<! -- PROFILE 08 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/logotipo_projeta_design_engeranharia.jpg" class="img-circle" width="80">
+										<h4>PROJETA</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+
+					</div><! --/END 8ND ROW OF PANELS -->
+					
+					<! -- 3RD ROW OF PANELS -->
+          		
+                     		<! -- PROFILE 9 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/logo-con-diseno-de-contabilidad_1438-31.jpg" class="img-circle" width="80">
+										<h4>ACCOUNTING</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+					
+					</div><! --/END 9ND ROW OF PANELS -->
+					
+							<! -- PROFILE 010 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/depositphotos_118883022-stock-illustration-bookkeeping-logo-design-07.jpg" class="img-circle" width="80">
+										<h4>COMPANY</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+					
+					</div><! --/END 10ND ROW OF PANELS -->
+					
+							<! -- PROFILE 011 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/design_grafico_identidade_visual_logotipo_logomarca_tio_sam_hotel_e_fitness_niteroi_rj.jpg" class="img-circle" width="80">
+										<h4>TIO SAM</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						
+					</div><! --/END 11ND ROW OF PANELS -->
+					
+							<! -- PROFILE 012 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/fr-06.jpg" class="img-circle" width="80">
+										<h4>DJ SHERMAN</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						
+					</div><! --/END 12ND ROW OF PANELS -->
+					
+							<! -- PROFILE 013 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/fr-06.jpg" class="img-circle" width="80">
+										<h4>DJ SHERMAN</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						
+					</div><! --/END 13ND ROW OF PANELS -->
+					
+							<! -- PROFILE 02 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/fr-06.jpg" class="img-circle" width="80">
+										<h4>DJ SHERMAN</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						
+					</div><! --/END 13ND ROW OF PANELS -->
+					
+							<! -- PROFILE 14 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/fr-06.jpg" class="img-circle" width="80">
+										<h4>DJ SHERMAN</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						</div><!--/ col-md-4 -->
+					</div><! --/END 14ND ROW OF PANELS -->
+					
+						<! -- PROFILE 015 PANEL -->
+						<div class="col-lg-4 col-md-4 col-sm-4 mb">
+							<div class="content-panel pn">
+								<div id="profile-02">
+									<div class="user">
+										<img src="assets/img/friends/fr-06.jpg" class="img-circle" width="80">
+										<h4>DJ SHERMAN</h4>
+									</div>
+								</div>
+								<div class="pr2-social centered">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div><! --/panel -->
+						</div><!--/ col-md-4 -->
+					</div><! --/END 15ND ROW OF PANELS -->
+					
+					
+
+					
+          		</div>
+          	</div>
+			
+		</section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2018 - AUXILIUM
+              <a href="panels.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assetsperfil/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sparkline.js"></script>
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    <script src="assets/js/sparkline-chart.js"></script>    
+    
+    
+  <script>
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>
