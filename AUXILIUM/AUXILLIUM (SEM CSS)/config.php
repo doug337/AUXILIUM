@@ -5,7 +5,7 @@
 	{
 		private $servidor = "localhost";
 		private $user = "root";
-		private $senha = "";
+		private $senha = "root";
 		private $banco = "axillium";
 
 		function conectaBanco() {

@@ -50,7 +50,7 @@
 			$_SESSION['user']['cpf'] = $user['cpf'];
 			//AQUI AGORA VAI FICAR TODAS ENTIDADES DA TABELA
 
-			header("Location: PERFIL.php"); //O PERFIL DO USUÁRIO
+			header("Location: perfil.php"); //O PERFIL DO USUÁRIO
 
 		} else {
 			$message = '<h1>Senha ou username Incorretos.</h1>
