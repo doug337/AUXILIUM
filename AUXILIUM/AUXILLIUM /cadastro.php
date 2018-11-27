@@ -302,11 +302,35 @@
 </fieldset>
 <br />
 
+<!-- DADOS DA ONG -->
+<fieldset>
+ <legend>Dados da ONG</legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="ong">ONG: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="ong">
+   </td>
+  </tr>
+	<tr>
+   <td>
+    <label for="cnpj">CNPJ: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cnpj">
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br />
+</form>
 <!-- DADOS DE LOGIN -->
 <fieldset>
  <legend>Dados de login</legend>
  <table cellspacing="10">
-  <tr>
+	<tr>
    <td>
     <label for="email">E-mail: </label>
    </td>
@@ -359,36 +383,26 @@
                                     
                                 </ul>
                             </section>
-                            <section class="3u 6u$(medium) 12u$(small)">
-                                <h3>gg</h3>
-                                <ul class="unstyled">
-                                    <li><a href="#">Lorem ipsum dolor sit</a></li>
-                                    <li><a href="#">Reiciendis dicta laboriosam enim</a></li>
-                                    <li><a href="#">Corporis, non aut rerum</a></li>
-                                    <li><a href="#">Laboriosam nulla voluptas, harum</a></li>
-                                    <li><a href="#">Facere eligendi, inventore dolor</a></li>
-                                </ul>
-                            </section>
-                            <section class="3u 6u(medium) 12u$(small)">
-                                <h3>Neque, dolore, facere</h3>
-                                <ul class="unstyled">
-                                    <li><a href="#">Lorem ipsum dolor sit</a></li>
-                                    <li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
-                                    <li><a href="#">Explicabo inventore itaque autem</a></li>
-                                    <li><a href="#">Aperiam harum, sint quibusdam</a></li>
-                                    <li><a href="#">Labore excepturi assumenda</a></li>
-                                </ul>
-                            </section>
-                            <section class="3u$ 6u$(medium) 12u$(small)">
-                                <h3>Illum, tempori, saepe</h3>
-                                <ul class="unstyled">
-                                    <li><a href="#">Lorem ipsum dolor sit</a></li>
-                                    <li><a href="#">Recusandae, culpa necessita nam</a></li>
-                                    <li><a href="#">Cupiditate, debitis adipisci blandi</a></li>
-                                    <li><a href="#">Tempore nam, enim quia</a></li>
-                                    <li><a href="#">Explicabo molestiae dolor labore</a></li>
-                                </ul>
-                            </section>
+							<section class="3u 6u$(medium) 12u$(small)">
+								<h3>EMPRESAS</h3>
+								<ul class="unstyled">
+									<li><a href="#">EMPRESA 1</a></li>
+									<li><a href="#">EMPRESA 2</a></li>
+									<li><a href="#">EMPRESA 3</a></li>
+									<li><a href="#">EMPRESA 4</a></li>
+									<li><a href="#">EMPRESA 5</a></li>
+								</ul>
+							</section>
+							<section class="3u 6u(medium) 12u$(small)">
+								<h3>ONG's</h3>
+								<ul class="unstyled">
+									<li><a href="#">ONG 1</a></li>
+									<li><a href="#">ONG 2</a></li>
+									<li><a href="#">ONG 3</a></li>
+									<li><a href="#">ONG 4</a></li>
+									<li><a href="#">ONG 5</a></li>
+								</ul>
+							</section>
                         </div>
                     </section>
                     <div class="row">
