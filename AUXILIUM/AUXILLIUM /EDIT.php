@@ -1,14 +1,16 @@
 <?php
-   header("Content-Type: text/html; charset=ISO-8859-1",true);
-   require_once("functions.php");
-   seguranca();
-   $username = $_SESSION['user']['username'];
-   $nome = $_SESSION['user']['nome'];
-   $email = $_SESSION['user']['email'];
-   $cpf = $_SESSION['user']['cpf'];
+    header("Content-Type: text/html; charset=ISO-8859-1",true);
+    require_once("functions.php");
+    seguranca();
+    $username = $_SESSION['user']['username'];
+    $nome = $_SESSION['user']['nome'];
+    $email = $_SESSION['user']['email'];
+    $cpf = $_SESSION['user']['cpf'];
 
-   //ISSO DEVE ESTAR NO INICIO DE CADA PÁGINA QUE O USUÁRIO USAR APÓS O LOGIN
-?>
+ ?>
+
+
+
 
 
 
@@ -29,22 +31,34 @@
 
         <form action="EDITSERV.php" method="post">
 
-            Nome:<input type="text" name="nome" required><br><br>
+            Nome:<input type="text" name="nome" ><br><br>
 
-            Cpf:<input type="text" name="cpf" required><br><br>
+            Cpf:<input type="text" name="cpf" ><br><br>
 
-            Email:<input type="text" name="email" required><br><br>
+            Email:<input type="text" name="email" ><br><br>
+
+            Sexo:<input type="text" name="sexo" ><br><br>
+
+            RG:<input type="text" name="rg" ><br><br>
+
+            Rua:<input type="text" name="rua" ><br><br>
+
+            Casa:<input type="text" name="casa" ><br><br>
+
+            Cep:<input type="text" name="cep" ><br><br>
+
+            Bairro:<input type="text" name="bairro" ><br><br>
+
+            Cidade:<input type="text" name="cidade" ><br><br>
 
             <input type="submit" name="update" value="Update Data">
 
-            <div class="dropdown">
-              <button class="dropbtn">Usuários</button>
-              <div class="dropdown-content">
-                <a href="#"><?php echo $nome?></a>
-                <a href="#">Usuário 2</a>
-                <a href="#">Usuário 3</a>
-              </div>
-            </div>
+ <td align="left">
+    <select name="username"> 
+    <option><?php echo $username?></option> 
+
+    </select>
+   </td>
 
         </form>
 

@@ -1481,7 +1481,7 @@ footer a, footer a:link {
 	  
     </button>
   </form>
-  <footer><a target="blank" href="cadastro.php"><a href="cadastro.php">Ainda não tem uma conta? CADASTRE-SE</a></footer>
+  <footer><a target="blank" href="cadastro.php"><a href="form.php">Ainda não tem uma conta? CADASTRE-SE</a></footer>
   </p>
 </div>
  

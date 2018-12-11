@@ -105,7 +105,7 @@
                       <ul class="sub">
                           <li><a  href="calendar.html">Meu calendário</a></li>
                           <li><a  href="gallery.html">Minha galeria</a></li>
-                          <li><a  href="todo_list.html">Editar dados</a></li>
+                          <li><a  href="EDIT.php">Editar dados</a></li>
                       </ul>
                   </li>
               
