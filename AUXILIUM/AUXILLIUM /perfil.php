@@ -40,6 +40,12 @@
 
     <body>
 
+    <h1>Pesquisar Ongs</h1>
+<form method="post" action="pesquisar.php">
+   Pesquisar:<input type="text" name="username" placeholder="PESQUISAR">
+   <input type="submit" value="ENVIAR">
+</form>
+
   <section id="container" >
       <!-- **********************************************************************************************************************************************************
       TOP BAR CONTENT & NOTIFICATIONS
