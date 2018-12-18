@@ -54,5 +54,34 @@
 										$conexao->close();
 										?>
 
+			</br>
+
+			<h1> listas de empresas</h1>
+										<?php
+										require_once("config.php");
+										$config = new Config();
+										$conexao = $config->conectaBanco();
+
+										$query = "select nome from empresa";
+
+										$result = mysqli_query($conexao, $query) or die('Invalid query: ' . $conexao->error);
+
+										$num = 0;
+										if ($result->num_rows > 0) {
+								    	// output data of each row
+									    while($row = $result->fetch_assoc()) {
+												$num = $num + 1;
+												echo "<div class = \"quadro".$num."\">";
+												echo "		<div class = \"textoconf\">";
+												echo "			<h3 class = \"titulosinopse\">".$row["nome"]."</h3>";
+												echo "		</div>";
+												echo "		</div>";
+												echo "</div>";
+									    }
+										}
+										$conexao->close();
+										?>
+
+
 </body>
 </html>
